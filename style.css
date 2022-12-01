@@ -1,0 +1,23 @@
+header{
+    background-image: url("images/front.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+
+#htitle{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.maintext{
+    text-align: center;
+}
+#abtImg{
+    width: 100%;
+}
+.padded-card{
+    padding: 20%;
+}
