@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font Awesome -->
-<link
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-  rel="stylesheet"
-/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
 <link
   href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
   rel="stylesheet"
@@ -43,8 +43,8 @@
 
           <!-- NAVBAR -->
 
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
-          <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark ps-5 pe-5">
+          <div class="container-fluid ">
             <a class="navbar-brand" href="#">Akashdeep Tickoo</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -55,16 +55,16 @@
                   <a class="nav-link " aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
+                  <a class="nav-link" href="#service">Skills</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -94,14 +94,14 @@
 
   <main>
     
-    <div class="container-fluid mt-auto pt-5 ">
-      <h2 class="maintext">About Me</h2>
+    <div class="container-fluid mt-auto pt-5 set">
+      <h2 class="maintext headings" id="about">About Me</h2>
       <div class="row pt-5 mt-5">
-        <div class="col-lg-2 col-sm-8 img m-lg-auto m-sm-auto">
+        <div class="col-lg-3 col-sm-5 img m-sm-auto">
           <img src="images/dp.jpg"class="img-fluid" alt="dp_image" id="abtImg">
         </div>
-        <div class="col-lg-8 col-sm-12 m-lg-auto m-sm-auto">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, earum cumque commodi quae sit, magni vitae illum ullam perspiciatis id nesciunt beatae omnis quod neque debitis amet culpa error? Laudantium ducimus ea aliquam. Nihil quaerat itaque iure fugit consequatur praesentium vero, est eius temporibus voluptas esse sapiente consectetur quo quas.</p>
+        <div class="col-lg-5 col-sm-12 m-auto mt-sm-5">
+          <p>I am currently an undergraduate student at JC Bose university of science and technology, YMCA , Faridabad. I'm currently pursuing B.Tech in Electronics and Computer Engineering</p>
           <div class="row mt-2">
             <div class="col ">
               <ul>
@@ -109,27 +109,27 @@
                   Name: Akashdeep Tickoo
                 </li>
                 <li>
-                  Name: Akashdeep Tickoo
+                  Age: 20
                 </li>
                 <li>
-                  Name: Akashdeep Tickoo
+                  City: Faridabad, Haryana
                 </li>
               </ul>
             </div>
             <div class="col ">
               <ul>
                 <li>
-                  Name: Akashdeep Tickoo
+                  Major: Electronics and Computer Engineering
                 </li>
                 <li>
-                  Name: Akashdeep Tickoo
+                  CGPA: 8.4
                 </li>
                 <li>
-                  Name: Akashdeep Tickoo
+                  Graduation: 2024
                 </li>
               </ul>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque placeat asperiores fugit aliquid, quam nemo porro tempore esse repellat aperiam harum quod laborum quas earum soluta, voluptates beatae, commodi error obcaecati? Veritatis officia ipsum maxime amet dolorum earum cum labore, similique nobis ab laboriosam laborum inventore et optio tempore nostrum.</p>
+            <p>I consider myself an enthusiastic learner and hardworking soul who loves to code and learn new technologies. </p>
           </div>
         </div>
       
@@ -156,39 +156,32 @@
 
 <!-- options -->
 
-    <div class="container-fluid mt-5 pt-5" >
-      <h2 class="maintext">Services</h2>
+    <div class="container-fluid mt-5 pt-5 set" >
+      <h2 class="maintext headings" id="service">Skills</h2>
       <div class="row mt-5 ">
         <div class="col-sm-12 col-lg-4 mt-sm-3">
-          <div class="card mx-auto" style="width: 18rem;">
+          <div class="card mx-auto" style="width: 25rem;">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <h5 class="card-title">Data structures and Algorithms</h5>
+           
+              <p class="card-text">Well versed with topics like Recursion, Stacks, Queues, Linked list, Trees, Graph.</p>
+            
             </div>
           </div>
         </div>
         <div class="col-sm-12 col-lg-4 mt-sm-3">
-          <div class="card mx-auto" style="width: 18rem;">
+          <div class="card mx-auto" style="width: 25rem;">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <h5 class="card-title">Web development</h5>
+              <p class="card-text">HTML, CSS, javaScript, jQuery, Bootstrap, Git/github, Node.js, Express.js</p>
             </div>
           </div>
         </div>
         <div class="col-sm-12 col-lg-4 mt-sm-3">
-          <div class="card mx-auto" style="width: 18rem;">
+          <div class="card mx-auto" style="width: 25rem;">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <h5 class="card-title">Object oriented programming</h5>
+              <p class="card-text">Good knowledge of programming in C++ by applying OOP concepts</p>
             </div>
           </div>
         </div>
@@ -196,35 +189,26 @@
 
       <div class="row mt-lg-3 ">
         <div class="col-sm-12 col-lg-4 mt-sm-3">
-          <div class="card mx-auto" style="width: 18rem;">
+          <div class="card mx-auto" style="width: 25rem;">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <h5 class="card-title">DBMS</h5>
+              <p class="card-text">MySQL, Oracle SQL, MongoDB.</p>
             </div>
           </div>
         </div>
         <div class="col-sm-12 col-lg-4 mt-sm-3">
-          <div class="card mx-auto" style="width: 18rem;">
+          <div class="card mx-auto" style="width: 25rem;">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <h5 class="card-title">Operating Systems</h5>
+              <p class="card-text">Good knowledge of computer science fundamentals.</p>
             </div>
           </div>
         </div>
         <div class="col-sm-12 col-lg-4 mt-sm-3">
-          <div class="card mx-auto" style="width: 18rem;">
+          <div class="card mx-auto" style="width: 25rem;">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <h5 class="card-title">Basic languages</h5>
+              <p class="card-text">C, C++, Python, Java.</p>
             </div>
           </div>
         </div>
@@ -240,36 +224,36 @@
 
 
     <!-- portfolio started -->
-    <div class="container-fluid mt-5 pt-5">
-      <h2 class="maintext">Portfolio</h2>
+    <div class="container-fluid mt-5 pt-5 set">
+      <h2 class="maintext headings" id="portfolio">Portfolio</h2>
       <div class="row mt-5">
         <div class="col-sm-12 col-lg-4 mt-sm-3">
-          <div class="card mx-auto" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card mx-auto" style="width: 25rem;">
+            <img class="card-img-top" src="images/tindog.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Tindog</h5>
+              <p class="card-text">Dating website for dogs.</p>
+              <a href="https://github.com/Akashdeep-Tickoo/tindog-bootstrap" class="btn btn-primary">Link</a>
             </div>
           </div>
         </div>
         <div class="col-sm-12 col-lg-4 mt-sm-3">
-          <div class="card mx-auto" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card mx-auto" style="width: 25rem;">
+            <img class="card-img-top" src="images/dice game.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Dice game</h5>
+              <p class="card-text">It rolls the dice and randomly selects a number which decides whether the player won or lose.</p>
+              <a href="https://github.com/Akashdeep-Tickoo/diceGame" class="btn btn-primary">Link</a>
             </div>
           </div>
         </div>
         <div class="col-sm-12 col-lg-4 mt-sm-3">
-          <div class="card mx-auto" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card mx-auto" style="width: 25rem;">
+            <img class="card-img-top" src="images/drumkit.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Drum Kit</h5>
+              <p class="card-text">Plays sounds of all the instruments available in a drumkit.</p>
+              <a href="https://github.com/Akashdeep-Tickoo/drum-kit" class="btn btn-primary">Link</a>
             </div>
           </div>
         </div>
@@ -278,32 +262,22 @@
 
       <div class="row mt-5">
         <div class="col-sm-12 col-lg-4 mt-sm-3">
-          <div class="card mx-auto" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card mx-auto" style="width: 25rem;">
+            <img class="card-img-top" src="/images/simon.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Simon</h5>
+              <p class="card-text">Play the simon game.</p>
+              <a href="https://github.com/Akashdeep-Tickoo/simon" class="btn btn-primary">Link</a>
             </div>
           </div>
         </div>
         <div class="col-sm-12 col-lg-4 mt-sm-3">
-          <div class="card mx-auto" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card mx-auto" style="width: 25rem;">
+            <img class="card-img-top" src="images/repo.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4 mt-sm-3">
-          <div class="card mx-auto" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">C++ DSA repositery</h5>
+              <p class="card-text">Regular contributer to repositery of c++ dsa codes.</p>
+              <a href="https://github.com/Akashdeep-Tickoo/CPP-DSA" class="btn btn-primary">Link</a>
             </div>
           </div>
         </div>
@@ -314,15 +288,15 @@
 
     <!-- contact me started -->
     <div class="container-fluid mt-5 pt-5">
-      <h2 class="maintext">Contact Me</h2>
+      <h2 class="maintext headings" id="contact">Contact Me</h2>
       <div class="row mt-5">
         <div class="col-sm-12 col-lg-6 ">
           
           <div class="mx-auto" style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;"><div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=YMCA,+YMCA+Main+Street,+Sector+6,+Faridabad,+Haryana,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="the-googlemap-enabler" href="https://www.bootstrapskins.com/themes" id="authmaps-data">premium bootstrap themes</a><style>#my-map-canvas .text-marker{}.map-generator{max-width: 100%; max-height: 100%; background: none;</style></div>
         </div>
 
-        <div class="col-sm-12 col-lg-6 mt-sm-5">
-
+        <div class="col-sm-6 col-lg-4 mt-sm-5 mx-auto">
+          
 <form name="contact" method="POST" data-netlify="true">
   
 
@@ -365,6 +339,23 @@
 
   </main>
 
+<!-- footer section-->
+<footer id="footer">
+  <div class="container-fluid">
+      <!-- social media icons -->
+      <div class="social-icons mt-4">
+          <a href="https://wa.me/+918492973103" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/akashdeeptickoo/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.twitter.com/TickooAkashdeep" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/akashdeeptickoo/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Akashdeep-Tickoo" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+  </div>
+</footer>
+
+
+
+
 
 
 
@@ -374,5 +365,6 @@
     type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"
     ></script>
+    <script src="index.js"></script>
 </body>
 </html>
